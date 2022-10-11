@@ -1,0 +1,155 @@
+
+p#ppp{
+    position: absolute;
+    font-size: 80px;
+    font-family: "Algerian";
+    top: 0% ;
+    float: left;
+    color: #ffffff;
+    border: 0ch;
+    text-decoration: none;
+    position: absolute;
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        transform: translateY(-5px);
+    }
+    50%
+    {
+        transform: translateY(5px);
+    }
+}
+.fondoss{
+        position: absolute;
+        right: 2500px;
+        width: 1400px;
+        height: 1400px;  
+        animation-name: fondo1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        animation-direction: alternate-reverse;
+
+}
+
+
+@keyframes fondo1
+{
+    0%{
+        transform: translateX(10%);
+    }
+    100%{
+        transform: translateX(000%) translateY(100%);
+    }
+}
+.fondoss1{
+    position: absolute;
+    right: 150px;
+    width: 1400px;
+    height: 1400px;  
+    animation-name: fondo2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+@keyframes fondo2
+{
+    0%{
+        transform: translateX(30%);
+    }
+    100%{
+        transform: translateX(-000%) translateY(-100%);
+    }
+}
+
+
+.imgsig{
+    position: relative;
+    right: -1400px;
+    animation: animate 0.2s ease infinite;;
+    width: 400px;
+    height: 400px;
+  }
+
+.imgca{
+    position: relative;
+    width: 2000px;
+    height: 2000px;
+}
+
+.img1{
+    float: left;
+    text-align: center;
+    margin-top: 60px;
+    position: absolute ;
+    animation: img1 8s infinite linear;
+}
+    
+/*@keyframes img1{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-359deg);
+    }
+}
+/* texto1 */
+h6#h31{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: -120px;
+    
+    color: #dedbdb;
+    font-family: "Algerian";
+}
+h6#h32{
+    color: #dedbdb;
+    font-family: "Algerian";
+}
+
+h6#h33{
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+    top: -120px;
+    
+    
+}
+h6#h37{
+    font-size: 40px;
+    text-align: right;
+    position: absolute;
+    
+    text-align: left;
+}
+h6#h34{
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: -5px;
+    color: #dedbdb;
+    font-family: "Algerian";
+   
+}
+h6#h35{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    top: -5px;
+   
+}
+
+
+  /* estilo */
+
+
+ 
+
+
+
+/* inicio */
+

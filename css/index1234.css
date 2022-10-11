@@ -1,0 +1,74 @@
+/* galeria */
+
+
+p#ppp{
+  
+  font-size: 120px;
+  font-family: "Algerian";
+  left: 1400;
+  float: center;
+  color: #f5f0f0;
+  position: absolute; 
+  
+  
+  top: -50px;
+  align-items: center;
+}
+.logosiuu{
+  width: 700px;
+  position: absolute;
+}
+  
+.imfo{
+  position: absolute;
+  top: 1000px;
+  margin-left: 3400px;
+}
+.h1{
+  position: relative;
+}
+body {
+  background-color: #000000;
+  font-size: 15px;
+  font-family: "Gotham", Helvetica, Arial, Sans-Serif;
+  font-weight: normal;
+  color: #ffffff;
+  background-image: url(C:\Users\USUARIO\Downloads\aste.gif);
+  background-repeat: repeat;
+  background-position: top center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  min-width: 500px;  */
+}
+
+
+
+.video{
+  height: 1900px;
+  width: 1900px;
+  
+  margin-left: 900px;
+  
+}
+.metio{
+  height: 400px;
+  width: 400px;
+  position: relative;
+  animation-name: metio;
+
+}
+@keyframes{
+  animation 
+}
+
+.classol{
+  width: 300px;
+  height: 550px;
+
+}
+.classo{
+  width: 300px;
+  height: 550px;
+  float: right;
+
+}
